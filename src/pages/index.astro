@@ -1,9 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+
+const title = "Home Page"
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title={title}>
 	<main>
 		<svg
 			class="astro-a"
@@ -60,6 +62,9 @@ import Card from '../components/Card.astro';
 				body="Come say hi to our amazing Discord community. ❤️"
 			/>
 		</ul>
+    <a href="/about/">About</a>
+    <br>
+     <a href="/blog/">Blog</a>
 	</main>
 </Layout>
 
